@@ -5,6 +5,7 @@ public class App {
 		
 		//We store the instance of Undo class to access to it quickly
 		Undo undo = Undo.getInstance();
+		
 		boolean flag = true;
 		while(flag) {
 			
