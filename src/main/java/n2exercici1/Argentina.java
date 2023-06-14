@@ -1,6 +1,6 @@
 package n2exercici1;
 
-public class Argentine implements Person{ //AbstractFactory1
+public class Argentina implements Agenda{ //AbstractFactory1
 
 	@Override
 	public String createPhoneNumber(String number) {

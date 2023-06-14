@@ -1,6 +1,6 @@
 package n2exercici1;
 
-public class Spaniard implements Person{
+public class Spain implements Agenda{
 
 	@Override
 	public String createPhoneNumber(String number) {
