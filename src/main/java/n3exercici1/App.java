@@ -28,11 +28,11 @@ public class App {
 		
 		bikeParking.startUp(true);
 		bikeParking.accelerate(true);
-		bikeParking.accelerate(true);
 		bikeParking.slowDown(true);
 		bikeParking.slowDown(false);
 		bikeParking.startUp(false);
-
+		
+		//Implementations with the other vehicles will be similar, just create a
+		//Parking (Invoker) that can command the object we give him through parameters
 	}
-
 }
