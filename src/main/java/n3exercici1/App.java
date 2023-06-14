@@ -22,6 +22,16 @@ public class App {
 		carParking.accelerate(false);
 		carParking.startUp(false);
 		
+		Parking bikeParking = new Parking(new BicycleStartUpCommand(bmx),
+				new BicycleAccelerateCommand(bmx),
+				new BicycleSlowDownCommand(bmx));
+		
+		bikeParking.startUp(true);
+		bikeParking.accelerate(true);
+		bikeParking.accelerate(true);
+		bikeParking.slowDown(true);
+		bikeParking.slowDown(false);
+		bikeParking.startUp(false);
 
 	}
 
