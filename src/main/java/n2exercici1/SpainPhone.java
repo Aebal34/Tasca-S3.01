@@ -1,8 +1,8 @@
 package n2exercici1;
 
-public class ArgentinaPhone implements Phone{
+public class SpainPhone implements Phone{
 
-	private static final String prefix = "+54 ";
+	private static final String prefix = "+34 ";
 
 	@Override
 	public String createPhoneNumber(String number) {
